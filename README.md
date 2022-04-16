@@ -14,7 +14,7 @@ won't send cookies in cross-origin requests
 won’t set any cookies sent back in cross-origin responses
 A basic fetch request is really simple to set up. Have a look at the following code:
 
-fetch('http://example.com/movies.json')
+fetch [Movies API Data](https://developers.themoviedb.org/3/movies/get-movie-details)
   .then(response => response.json())
   .then(data => console.log(data));
 Copy to Clipboard
